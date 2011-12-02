@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613B3AFD1489417F00825FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3AFC1489417F00825FEC /* UIKit.framework */; };
+		613B3AFF1489417F00825FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3AFE1489417F00825FEC /* Foundation.framework */; };
+		613B3B011489417F00825FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3B001489417F00825FEC /* CoreGraphics.framework */; };
+		613B3B071489417F00825FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B051489417F00825FEC /* InfoPlist.strings */; };
+		613B3B091489417F00825FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B3B081489417F00825FEC /* main.m */; };
+		613B3B0D1489417F00825FEC /* KeyfobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B3B0C1489417F00825FEC /* KeyfobAppDelegate.m */; };
+		613B3B101489417F00825FEC /* KeyfobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B3B0F1489417F00825FEC /* KeyfobViewController.m */; };
+		613B3B131489417F00825FEC /* KeyfobViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B111489417F00825FEC /* KeyfobViewController_iPhone.xib */; };
+		613B3B161489417F00825FEC /* KeyfobViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B141489417F00825FEC /* KeyfobViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		613B3AF81489417F00825FEC /* Keyfob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyfob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613B3AFC1489417F00825FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		613B3AFE1489417F00825FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		613B3B001489417F00825FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		613B3B041489417F00825FEC /* Keyfob-Info.plist */ = {isa = PBXFileReference; path = "Keyfob-Info.plist"; sourceTree = "<group>"; };
+		613B3B061489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		613B3B081489417F00825FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613B3B0A1489417F00825FEC /* Keyfob-Prefix.pch */ = {isa = PBXFileReference; path = "Keyfob-Prefix.pch"; sourceTree = "<group>"; };
+		613B3B0B1489417F00825FEC /* KeyfobAppDelegate.h */ = {isa = PBXFileReference; path = KeyfobAppDelegate.h; sourceTree = "<group>"; };
+		613B3B0C1489417F00825FEC /* KeyfobAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyfobAppDelegate.m; sourceTree = "<group>"; };
+		613B3B0E1489417F00825FEC /* KeyfobViewController.h */ = {isa = PBXFileReference; path = KeyfobViewController.h; sourceTree = "<group>"; };
+		613B3B0F1489417F00825FEC /* KeyfobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyfobViewController.m; sourceTree = "<group>"; };
+		613B3B121489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyfobViewController_iPhone.xib; sourceTree = "<group>"; };
+		613B3B151489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyfobViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613B3AF51489417F00825FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613B3AFD1489417F00825FEC /* UIKit.framework in Frameworks */,
+				613B3AFF1489417F00825FEC /* Foundation.framework in Frameworks */,
+				613B3B011489417F00825FEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613B3AED1489417F00825FEC = {
+			isa = PBXGroup;
+			children = (
+				613B3B021489417F00825FEC /* Keyfob */,
+				613B3AFB1489417F00825FEC /* Frameworks */,
+				613B3AF91489417F00825FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		613B3AF91489417F00825FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613B3AF81489417F00825FEC /* Keyfob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		613B3AFB1489417F00825FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613B3AFC1489417F00825FEC /* UIKit.framework */,
+				613B3AFE1489417F00825FEC /* Foundation.framework */,
+				613B3B001489417F00825FEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613B3B021489417F00825FEC /* Keyfob */ = {
+			isa = PBXGroup;
+			children = (
+				613B3B0B1489417F00825FEC /* KeyfobAppDelegate.h */,
+				613B3B0C1489417F00825FEC /* KeyfobAppDelegate.m */,
+				613B3B0E1489417F00825FEC /* KeyfobViewController.h */,
+				613B3B0F1489417F00825FEC /* KeyfobViewController.m */,
+				613B3B111489417F00825FEC /* KeyfobViewController_iPhone.xib */,
+				613B3B141489417F00825FEC /* KeyfobViewController_iPad.xib */,
+				613B3B031489417F00825FEC /* Supporting Files */,
+			);
+			path = Keyfob;
+			sourceTree = "<group>";
+		};
+		613B3B031489417F00825FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613B3B041489417F00825FEC /* Keyfob-Info.plist */,
+				613B3B051489417F00825FEC /* InfoPlist.strings */,
+				613B3B081489417F00825FEC /* main.m */,
+				613B3B0A1489417F00825FEC /* Keyfob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		613B3AF71489417F00825FEC /* Keyfob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613B3B191489417F00825FEC /* Build configuration list for PBXNativeTarget "Keyfob" */;
+			buildPhases = (
+				613B3AF41489417F00825FEC /* Sources */,
+				613B3AF51489417F00825FEC /* Frameworks */,
+				613B3AF61489417F00825FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyfob;
+			productName = Keyfob;
+			productReference = 613B3AF81489417F00825FEC /* Keyfob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613B3AEF1489417F00825FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bluetooth SIG, Inc.";
+			};
+			buildConfigurationList = 613B3AF21489417F00825FEC /* Build configuration list for PBXProject "Keyfob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 613B3AED1489417F00825FEC;
+			productRefGroup = 613B3AF91489417F00825FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613B3AF71489417F00825FEC /* Keyfob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613B3AF61489417F00825FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613B3B071489417F00825FEC /* InfoPlist.strings in Resources */,
+				613B3B131489417F00825FEC /* KeyfobViewController_iPhone.xib in Resources */,
+				613B3B161489417F00825FEC /* KeyfobViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613B3AF41489417F00825FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613B3B091489417F00825FEC /* main.m in Sources */,
+				613B3B0D1489417F00825FEC /* KeyfobAppDelegate.m in Sources */,
+				613B3B101489417F00825FEC /* KeyfobViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		613B3B051489417F00825FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613B3B061489417F00825FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		613B3B111489417F00825FEC /* KeyfobViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613B3B121489417F00825FEC /* en */,
+			);
+			name = KeyfobViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		613B3B141489417F00825FEC /* KeyfobViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613B3B151489417F00825FEC /* en */,
+			);
+			name = KeyfobViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613B3B171489417F00825FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		613B3B181489417F00825FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		613B3B1A1489417F00825FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
+				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		613B3B1B1489417F00825FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
+				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613B3AF21489417F00825FEC /* Build configuration list for PBXProject "Keyfob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613B3B171489417F00825FEC /* Debug */,
+				613B3B181489417F00825FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613B3B191489417F00825FEC /* Build configuration list for PBXNativeTarget "Keyfob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613B3B1A1489417F00825FEC /* Debug */,
+				613B3B1B1489417F00825FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613B3AEF1489417F00825FEC /* Project object */;
+}
