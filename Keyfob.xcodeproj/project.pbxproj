@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2367798C17EAEF1600812305 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2367798B17EAEF1600812305 /* Default-568h@2x.png */; };
 		613B3AFD1489417F00825FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3AFC1489417F00825FEC /* UIKit.framework */; };
 		613B3AFF1489417F00825FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3AFE1489417F00825FEC /* Foundation.framework */; };
 		613B3B011489417F00825FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3B001489417F00825FEC /* CoreGraphics.framework */; };
@@ -16,23 +17,39 @@
 		613B3B101489417F00825FEC /* KeyfobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B3B0F1489417F00825FEC /* KeyfobViewController.m */; };
 		613B3B131489417F00825FEC /* KeyfobViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B111489417F00825FEC /* KeyfobViewController_iPhone.xib */; };
 		613B3B161489417F00825FEC /* KeyfobViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B141489417F00825FEC /* KeyfobViewController_iPad.xib */; };
+		613B3B1D1489418F00825FEC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3B1C1489418F00825FEC /* CoreBluetooth.framework */; };
+		613B3B231489680B00825FEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3B221489680B00825FEC /* AudioToolbox.framework */; };
+		613B3B36148BF93D00825FEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B3B35148BF93D00825FEC /* AVFoundation.framework */; };
+		613B3B6714918DB700825FEC /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B6414918DB700825FEC /* icon-ipad.png */; };
+		613B3B6814918DB700825FEC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B6514918DB700825FEC /* icon.png */; };
+		613B3B6914918DB700825FEC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B6614918DB700825FEC /* icon@2x.png */; };
+		613B3B6B14918DCC00825FEC /* BluetoothSmart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 613B3B6A14918DCC00825FEC /* BluetoothSmart.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2367798B17EAEF1600812305 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		613B3AF81489417F00825FEC /* Keyfob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyfob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613B3AFC1489417F00825FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		613B3AFE1489417F00825FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		613B3B001489417F00825FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		613B3B041489417F00825FEC /* Keyfob-Info.plist */ = {isa = PBXFileReference; path = "Keyfob-Info.plist"; sourceTree = "<group>"; };
+		613B3B041489417F00825FEC /* Keyfob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keyfob-Info.plist"; sourceTree = "<group>"; };
 		613B3B061489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		613B3B081489417F00825FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		613B3B0A1489417F00825FEC /* Keyfob-Prefix.pch */ = {isa = PBXFileReference; path = "Keyfob-Prefix.pch"; sourceTree = "<group>"; };
-		613B3B0B1489417F00825FEC /* KeyfobAppDelegate.h */ = {isa = PBXFileReference; path = KeyfobAppDelegate.h; sourceTree = "<group>"; };
+		613B3B0A1489417F00825FEC /* Keyfob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keyfob-Prefix.pch"; sourceTree = "<group>"; };
+		613B3B0B1489417F00825FEC /* KeyfobAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyfobAppDelegate.h; sourceTree = "<group>"; };
 		613B3B0C1489417F00825FEC /* KeyfobAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyfobAppDelegate.m; sourceTree = "<group>"; };
-		613B3B0E1489417F00825FEC /* KeyfobViewController.h */ = {isa = PBXFileReference; path = KeyfobViewController.h; sourceTree = "<group>"; };
+		613B3B0E1489417F00825FEC /* KeyfobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyfobViewController.h; sourceTree = "<group>"; };
 		613B3B0F1489417F00825FEC /* KeyfobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyfobViewController.m; sourceTree = "<group>"; };
 		613B3B121489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyfobViewController_iPhone.xib; sourceTree = "<group>"; };
 		613B3B151489417F00825FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyfobViewController_iPad.xib; sourceTree = "<group>"; };
+		613B3B1C1489418F00825FEC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		613B3B221489680B00825FEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		613B3B35148BF93D00825FEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		613B3B6414918DB700825FEC /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
+		613B3B6514918DB700825FEC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		613B3B6614918DB700825FEC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		613B3B6A14918DCC00825FEC /* BluetoothSmart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BluetoothSmart.jpg; sourceTree = "<group>"; };
+		62FAABC4157F072100916AB6 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613B3B36148BF93D00825FEC /* AVFoundation.framework in Frameworks */,
+				613B3B231489680B00825FEC /* AudioToolbox.framework in Frameworks */,
+				613B3B1D1489418F00825FEC /* CoreBluetooth.framework in Frameworks */,
 				613B3AFD1489417F00825FEC /* UIKit.framework in Frameworks */,
 				613B3AFF1489417F00825FEC /* Foundation.framework in Frameworks */,
 				613B3B011489417F00825FEC /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +75,7 @@
 				613B3B021489417F00825FEC /* Keyfob */,
 				613B3AFB1489417F00825FEC /* Frameworks */,
 				613B3AF91489417F00825FEC /* Products */,
+				613B3B2C14897E8D00825FEC /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +90,9 @@
 		613B3AFB1489417F00825FEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				613B3B35148BF93D00825FEC /* AVFoundation.framework */,
+				613B3B221489680B00825FEC /* AudioToolbox.framework */,
+				613B3B1C1489418F00825FEC /* CoreBluetooth.framework */,
 				613B3AFC1489417F00825FEC /* UIKit.framework */,
 				613B3AFE1489417F00825FEC /* Foundation.framework */,
 				613B3B001489417F00825FEC /* CoreGraphics.framework */,
@@ -79,6 +103,7 @@
 		613B3B021489417F00825FEC /* Keyfob */ = {
 			isa = PBXGroup;
 			children = (
+				62FAABC4157F072100916AB6 /* constants.h */,
 				613B3B0B1489417F00825FEC /* KeyfobAppDelegate.h */,
 				613B3B0C1489417F00825FEC /* KeyfobAppDelegate.m */,
 				613B3B0E1489417F00825FEC /* KeyfobViewController.h */,
@@ -93,12 +118,25 @@
 		613B3B031489417F00825FEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2367798B17EAEF1600812305 /* Default-568h@2x.png */,
 				613B3B041489417F00825FEC /* Keyfob-Info.plist */,
 				613B3B051489417F00825FEC /* InfoPlist.strings */,
 				613B3B081489417F00825FEC /* main.m */,
 				613B3B0A1489417F00825FEC /* Keyfob-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		613B3B2C14897E8D00825FEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				613B3B6414918DB700825FEC /* icon-ipad.png */,
+				613B3B6A14918DCC00825FEC /* BluetoothSmart.jpg */,
+				613B3B6514918DB700825FEC /* icon.png */,
+				613B3B6614918DB700825FEC /* icon@2x.png */,
+			);
+			name = Resources;
+			path = Keyfob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +165,7 @@
 		613B3AEF1489417F00825FEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Bluetooth SIG, Inc.";
 			};
 			buildConfigurationList = 613B3AF21489417F00825FEC /* Build configuration list for PBXProject "Keyfob" */;
@@ -155,6 +193,11 @@
 				613B3B071489417F00825FEC /* InfoPlist.strings in Resources */,
 				613B3B131489417F00825FEC /* KeyfobViewController_iPhone.xib in Resources */,
 				613B3B161489417F00825FEC /* KeyfobViewController_iPad.xib in Resources */,
+				613B3B6714918DB700825FEC /* icon-ipad.png in Resources */,
+				613B3B6814918DB700825FEC /* icon.png in Resources */,
+				613B3B6914918DB700825FEC /* icon@2x.png in Resources */,
+				613B3B6B14918DCC00825FEC /* BluetoothSmart.jpg in Resources */,
+				2367798C17EAEF1600812305 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +248,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,10 +266,16 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -231,17 +285,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -251,10 +315,16 @@
 		613B3B1A1489417F00825FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
 				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,13 +332,66 @@
 		613B3B1B1489417F00825FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
 				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		613B3B241489720C00825FEC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		613B3B251489720C00825FEC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
+				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -278,6 +401,7 @@
 			buildConfigurations = (
 				613B3B171489417F00825FEC /* Debug */,
 				613B3B181489417F00825FEC /* Release */,
+				613B3B241489720C00825FEC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -287,8 +411,10 @@
 			buildConfigurations = (
 				613B3B1A1489417F00825FEC /* Debug */,
 				613B3B1B1489417F00825FEC /* Release */,
+				613B3B251489720C00825FEC /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
