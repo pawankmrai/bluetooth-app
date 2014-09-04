@@ -38,7 +38,7 @@ char rssiValue = -100;
 BOOL bShowRSSI;
 NSString *pName;
 
-//==========================================================================================================================================//
+//==================================================================================//
 #pragma mark -
 #pragma mark - Vibrator Function
 
@@ -48,7 +48,6 @@ NSString *pName;
     unsigned char tempByte[]={0xA8,0xCC,0xF0,0x81,0xAE};
     
     data = [NSMutableData dataWithBytes:&tempByte length:sizeof(tempByte)];
-    
     
     switch ([sender tag]) {
         case 10:

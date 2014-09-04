@@ -167,6 +167,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Bluetooth SIG, Inc.";
+				TargetAttributes = {
+					613B3AF71489417F00825FEC = {
+						DevelopmentTeam = YCWM527CDR;
+					};
+				};
 			};
 			buildConfigurationList = 613B3AF21489417F00825FEC /* Build configuration list for PBXProject "Keyfob" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -315,15 +320,15 @@
 		613B3B1A1489417F00825FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
 				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				PROVISIONING_PROFILE = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -332,15 +337,15 @@
 		613B3B1B1489417F00825FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Simon Rahme (88256KSNZM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
 				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				PROVISIONING_PROFILE = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,15 +384,15 @@
 		613B3B251489720C00825FEC /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AppStudioz Singh (PEP342S638)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Simon Rahme (88256KSNZM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AppStudioz Singh (PEP342S638)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keyfob/Keyfob-Prefix.pch";
 				INFOPLIST_FILE = "Keyfob/Keyfob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF9514D-B79B-4288-BC13-C9A23C28854E";
+				PROVISIONING_PROFILE = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CF7A7A56-C953-4D20-B4FE-DBE770406871";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
